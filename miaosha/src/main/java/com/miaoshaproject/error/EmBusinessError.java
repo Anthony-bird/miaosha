@@ -11,7 +11,7 @@ public enum EmBusinessError implements CommonError {
     //30000开头为交易型错误
     STOCK_NOT_ENOUGH(30001,"库存不足")
     ;
-    ;
+
 
     private int errorCode;
     private String errmsg;

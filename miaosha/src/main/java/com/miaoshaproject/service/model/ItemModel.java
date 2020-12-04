@@ -25,7 +25,7 @@ public class ItemModel {
     //商品的描述
     private String description;
     //商品的价格
-    private String sales;
+    private Integer sales;
 
     @NotBlank(message = "商品图片不能为空")
   // 商品描述图片的url
@@ -74,11 +74,11 @@ public class ItemModel {
         this.description = description;
     }
 
-    public String getSales() {
+    public Integer getSales() {
         return sales;
     }
 
-    public void setSales(String sales) {
+    public void setSales(Integer sales) {
         this.sales = sales;
     }
 
